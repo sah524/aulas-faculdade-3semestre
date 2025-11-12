@@ -24,5 +24,16 @@ router.post('/',(req , res)=>{
     )
 });
 
+//criar a rota para tarzer os usuários do banco 
+router.get('/', (req , res) => {
+    //executar a instrução sql
+    //db.query("SELECT * FROM users", (err , results)=> {
+     //   if(err) return res.status(500).send(err);
+      //  res.json(results);
+
+    //})    
+    console.log("teste");
+})
+
 //exportar as rotas 
 module.exports = router;
